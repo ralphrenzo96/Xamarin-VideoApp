@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{30A131D4-2D5F-4CC9-80D5-F04582506CC0}|Default">
+  <MonoDevelop.Ide.ItemProperties.testapp.Droid PreferredExecutionTarget="Android.038e05043437a9e6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="testapp/Pages/NewRecordingPage.xaml" Line="11" Column="109" />
+      <File FileName="testapp/Pages/NewRecordingPage.xaml.cs" Line="56" Column="1" />
+      <File FileName="testapp/App.xaml.cs" Line="11" Column="44" />
+      <File FileName="testapp/Models/Stream.cs" Line="10" Column="23" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="1" />
+      <File FileName="Droid/MainApplication.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/aa04/Projects/testapp/testapp/Pages/NewRecordingPage.xaml.cs" relfile="testapp/Pages/NewRecordingPage.xaml.cs" line="56" column="32" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.testapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6742028C-C1B8-4ACA-8D1B-C8EE6D9CCE21">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.testapp.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

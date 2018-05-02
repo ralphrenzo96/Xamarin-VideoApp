@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.NewRecordingPage" xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView">
+    <Grid RowSpacing = "0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <BoxView Grid.Row = "0" BackgroundColor = "Silver" VerticalOptions = "FillAndExpand" HorizontalOptions = "FillAndExpand"/>
+        <BoxView Grid.Row = "1" VerticalOptions = "FillAndExpand" HorizontalOptions = "FillAndExpand"/>
+        <flv:FlowListView Grid.Row = "2" x:Name = "streamFlowList" FlowItemTapped = "OnStream_FlowItemTapped" FlowColumnCount="6" RowHeight = "60" SeparatorVisibility="None" HasUnevenRows="false" BackgroundColor = "White">
+            <flv:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <Grid Margin = "5" HeightRequest = "60" WidthRequest = "60">
+                        <BoxView  BackgroundColor = "Silver" Grid.Row = "0"/>
+                        <Label HorizontalTextAlignment = "Center" Text = "Add" Grid.Row = "0">
+                            <Label.Triggers>
+                              <DataTrigger TargetType="Label" Binding="{Binding isEmpty}" Value="true">
+                                <Setter Property="IsVisible" Value="false" />
+                              </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                    </Grid>
+                </DataTemplate>
+            </flv:FlowListView.FlowColumnTemplate>
+        </flv:FlowListView>
+    </Grid>
+</ContentPage>
